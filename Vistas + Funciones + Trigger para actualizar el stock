@@ -9,7 +9,7 @@ CREATE INDEX idx_version_producto_id_producto ON public.version_producto(id_prod
 -- Vista para obtener un resumen de las órdenes de producción activas
 CREATE VIEW public.resumen_ordenes_produccion AS
 SELECT 
-    op.id, 
+     
     p.referencia AS producto_referencia, 
     op.cantidad, 
     op.fecha_inicio, 
